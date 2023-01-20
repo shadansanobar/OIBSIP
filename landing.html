@@ -1,50 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title> ONLINE SHOPPING</title>
-<link rel="stylesheet" href="landing.css">
-</head>
-<body>
-<section>
-  <div class="circle"></div>
-<header>
-<a href="#"><img src="logo.png" class="logo"></a>
-<ul>
-<li><a href="#">HOME</a></li>
-<li><a href="#">MENU</a></li>
-<li><a href="#">WHAT"S NEW</a></li>
-<li><a href="#">CONTACT</a></li>
-</header>
-  <div class="content">
-    <div class="textBox">
-      <h2>It's not just  coffee<br>It's <span>Starbucks</span></h2> 
-      <p> welcome to starbucks cafe enjoy the taste</p>
-      <a href="#">Learn More</a>
-  </div>
-    <div class="imgBox">
-      <img src="img1.png" class="starbucks">
-    </div>
-    <ul class="thumb">
-      <li><img src ="thumb1.png" onclick="imgSlider('img1.png'); changeCircleColor('#017143')"></li>
-      <li><img src ="thumb2.png" onclick="imgSlider('img2.png'); changeCircleColor('#eb7495')"></li>
-      <li><img src ="thumb3.png" onclick="imgSlider('img3.png'); changeCircleColor('#d752b1')"></li>
-    </ul>
-    <ul class="sci">
-      <li><a href="#"><img src="facebook.png"></a></li>
-      <li><a href="#"><img src="twitter.png"></a></li>
-      <li><a href="#"><img src="instagram.png"></a></li>
-    </ul>
-</section>
-  <script type = "text/javascript">
-  function imgSlider(anything){
-    document.querySelector('.starbucks').src = anything;
-    
-  }
-    function changeCircleColor(color){
-      const circle = document.querySelector('.circle');
-      circle.style.background = color;
-    }
-  </script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Personal Portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="hero-images">
+                <nav>
+                    <img src="C:\Users\sanob\Desktop\sanobar\portfolio\logo.png" class="logo">                       
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">HIRE ME</a></li>
+                    </ul>
+                </nav>
+                <div class="image">
+                    <h1><span>I'm Sanobar</span> <span>Shadan</span></h1>
+                    <img src="image.jpg" class="image">                   
+                </div>
+                <p style="background-image: url('img_girl.jpg');">
+                <div class="details">
+                    <h1>I'm Sanobar Shadan </h1>
+                    <p><u><b><mark>My EDUCATION DETAILS ARE AS FOLLOWS:</u></b></mark>
+                        <br><b><u><i>EDUCATION:</b></u></i>
+                        <br>
+                        ->Bachelor of Engineering (B.E), Information Technology
+                          Stanley College Of Engineering & Technology For Women
+                          2019 - 2023
+                          CGPA(uptil 3-):7.0/10
+                        <br>
+                        <br>
+                        ->Senior Secondary (XII),
+                          Sri Chaitanya Junior Kalasala (BOARD OF SECONDARY board)
+                          Year of completion: 2019
+                          CGPA: 7.29/10
+                        <br>
+                        <br>
+                        ->Secondary (X)
+                          Vikas High School (SSC board)
+                          Year of completion: 2017
+                          CGPA: 7.30/10
+                    </p>
+                    <br>
+                    <p><b><u><i>
+                        PROGRAMMING SKILLS:</b></u></i>
+                        <br>
+                        ● MS-Excel
+                        <br>
+                        ● MS-Office
+                        <br>
+                        ● Python
+                        <br>
+                        ● C Programming
+                        <br>
+                        ● C++
+                    </p>
+                    <br>
+                    <p>
+                        <u><b><i>POSITIONS OF RESPONSIBILITY:</u></b></i>
+                        <br>
+                        Possess strong commitment to team environment dynamics with the ability to contribute expertise and follow leadership directives at appropriate times.
+                        <br>
+                        Thrive in a team environment and work well with others.
+                        <br>
+                        Enjoy working as a team member as well as independently.
+                    </p>
+                <a href="#">DOWNLOAD CV</a>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
